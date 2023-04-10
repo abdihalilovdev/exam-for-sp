@@ -5,7 +5,6 @@ interface IMode {
     mode: boolean
     setMode: (value:boolean) => void
 }
-
 const Header = ({mode, setMode}:IMode) => {
     return (
         <div id="header">

@@ -13,7 +13,8 @@ function App() {
     return (
         <div className="App" style={{
             background: mode ? 'black' : '',
-            color: mode ? 'white' : ''
+            color: mode ? 'white' : '',
+            transition: '1s'
         }}>
             <Header mode={mode} setMode={setMode}/>
             <Hero/>
