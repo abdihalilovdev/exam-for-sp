@@ -2,7 +2,7 @@ import React from 'react';
 
 const Order = () => {
     return (
-        <div className='bg-black text-white'>
+        <div className='bg-black '>
             <div className='container flex justify-evenly items-center py-5'>
                 <div>
                     <button className='bg-red-500 py-2 px-6 rounded-[14px]'>Заказать курс</button>

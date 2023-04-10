@@ -8,11 +8,12 @@ const Partners = () => {
             <div className="container py-20">
                 <div className='flex items-center'>
                     <img src={LitRed} alt=""/>
-                    <h1 className='text-white text-3xl mx-8'>Партнеры - топовые бренды</h1>
+                    <h1 className=' text-3xl mx-8'>Партнеры - топовые бренды</h1>
                 </div>
                 <div className='pt-20'>
                     <div className='flex items-center my-4'>
                         <img className='mx-4' src={msi} alt=""/>
+                        <div className="lines w-[]"></div>
                         <img className='mx-4' src={msi} alt=""/>
                         <img className='mx-4' src={msi} alt=""/>
                         <img className='mx-4' src={msi} alt=""/>

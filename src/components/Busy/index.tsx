@@ -9,8 +9,8 @@ const Busy = () => {
                 <div className=' flex items-center justify-evenly py-20'>
                     <img src={dispatch} alt=""/>
                     <div className=''>
-                        <h1 className='text-white text-[26px]'>Чем мы занимаемся?</h1>
-                        <p className='text-white my-6 text-[12px]'>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        <h1 className='text-[26px]'>Чем мы занимаемся?</h1>
+                        <p className=' my-6 text-[12px]'>Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Eget neque, dignissim et feugiat elit augue in <br/>
                             suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et
                             neque, <br/>
@@ -25,9 +25,9 @@ const Busy = () => {
                 <div className='ml-28 py-10'>
                     <div className='flex items-center'>
                         <img src={redsvg} alt=""/>
-                        <h1 className='text-white text-[26px] mx-4'> Быстрый старт</h1>
+                        <h1 className=' text-[26px] mx-4'> Быстрый старт</h1>
                     </div>
-                    <p className='text-align-start text-white my-5'>Больше 90% учеников прошли полный курс и смогли <br/>собрать свой
+                    <p className='text-align-start  my-5'>Больше 90% учеников прошли полный курс и смогли <br/>собрать свой
                         первый компьютер</p>
                 </div>
             </div>
